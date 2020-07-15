@@ -1,0 +1,64 @@
+body, div, p {
+	margin: 0;
+	padding: 0;
+	font-family: Alegreya Sans, sans-serif;
+}
+
+#header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 40vh;
+	background-image: url("img/chile-armada.jpg");
+	background-position: 40% 50%;
+	background-size: 100%;
+}
+
+h1 {
+	margin: 7vh 0 2vh 0;
+	font-family: Homemade Apple, cursive;
+	text-align: center;
+	font-size: 3rem;
+	color: black;
+}
+
+#menu {
+	list-style-type: none;
+	display: block;
+	width: 75vw;
+	margin: 0 auto 2vh auto;
+	border-top: 4px double white;
+	border-bottom: 4px double white;
+	padding: 2.5vh 0;
+	text-align: center;
+}
+
+#menu li {
+	display: inline;
+	margin: 0 1vw;
+	font-size: 1.5rem;
+	font-weight: bold;
+	background-color: rgba(38, 120, 191, 0.6);
+	padding: 0.7rem 2rem;
+	border-radius: 5px 5px 0px 0px;
+	text-shadow: 2px 2px 2px rgba(51, 51, 51, 0.7);
+	transition: background-color 0.3s;
+	trasition: text-shadow 0.3s;
+}
+
+#menu a {
+	text-decoration: none;
+	text-decoration-color: none;
+	text-decoration-style: none;
+	color: rgb(237, 237, 237);
+	transition: color 0.3s;
+}
+
+#menu a:hover {
+	color: rgb(26, 26, 26);
+}
+
+#menu li:hover {
+	background-color: rgba(38, 120, 191, 0.8);
+	text-shadow: 2px 2px 2px rgba(207, 207, 207, 0.5);
+}
